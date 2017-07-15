@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h3>Log In</h3>
+
+<!-- Action - Veriyi nereye gonderecegi bilgisi -->
+<!-- Method - Hangi HTTP methodunu kullanacagi bilgisi (get/post) -->
+
+<!-- 	<form>
+		<label>
+			Username:
+			<input type="text" name="name" placeholder="Name">
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="password">
+		</label>
+
+		<input type="submit" name="gonder">
+
+	</form> -->
+
+<!-- label'i for ile input'u da id ile baglayabiliriz! -->
+
+<form>
+	<label for="Username">Email:</label>
+	<input  id= "Username" type="email" name="name" placeholder="email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" placeholder="password" required>
+
+	<input type="submit" name="gonder">
+
+	</form>
+	
+
+</body>
+</html>

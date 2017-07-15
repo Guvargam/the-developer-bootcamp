@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Login System Design</h1>
+
+<form>
+	<label for="name">First Name:</label>
+	<input name="first" id= "name" type="text" placeholder="Name" required>
+	<label for="lastname">Last Name:</label>
+	<input name="last" id="lastname" type="text" placeholder="lastname" required>
+
+	<div>
+		<label for="male">Male</label>
+		<input id= "male" type="radio" name="gender" value="male" checked>
+		<label for="female">Female</label>
+		<input id= "female" type="radio" name="gender" value="female">
+		<label for="other">Other</label>
+		<input id= "other" type="radio" name="gender" value="other">
+
+	</div>
+
+	<div>
+		<label>
+		Email: 
+		<input type="email" name="email" placeholder="your email" required>
+		</label>
+		
+		<label>
+		Password: 
+		<input type="password" name="password" placeholder="your password" pattern=".{5,10}" required title="Parolaniz 5 ila 10 karakter arasinda olmali!" required>
+		</label>
+
+	</div>
+
+	<div>
+		<label> 
+		Birthday: 
+		<select name="Ay">
+			<option>Ay</option>
+			<option>Mart</option>
+			<option>Eylul</option>
+			<option>Ekim</option>
+		</select>
+		<select name="Gün">
+			<option>Gün</option>
+			<option>01</option>
+			<option>17</option>
+			<option>25</option>
+		</select>
+		<select name="Yıl">
+			<option>Yıl</option>
+			<option>1991</option>
+			<option>1996</option>
+			<option>2001</option>
+		</select>
+
+		</label>
+
+	</div>
+
+	<div>
+		<label for="anlasma"> Kullanim kosullarini kabul ediyorum  </label>
+		<input id="anlasma" type="checkbox" name="checked" required>
+	</div>
+
+	<input type="submit">
+</form>
+
+</body>
+</html>
